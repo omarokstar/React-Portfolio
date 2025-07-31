@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
-
-// Project thumbnails (make sure the paths match your assets)
 import ecommerce from "../assets/projects/ecommerce.png";
 import jobboard from "../assets/projects/jobboard.png";
 import medical from "../assets/projects/medical.png";
@@ -29,6 +27,7 @@ const Projects = () => {
       description="Full-stack eCommerce app built with Angular and Express. Features user authentication, cart management, admin panel, and secure payments."
       frontRepo="https://github.com/mashady/angular-ecommerce"
       backRepo="https://github.com/mashady/node-js-ecommerce"
+      demoLink="https://drive.google.com/file/d/1A_Gxu2o4tW-r8n_ksd2kciGxnjpfQEQJ/view?usp=sharing"
     />
   </Col>
 
@@ -39,6 +38,7 @@ const Projects = () => {
       description="Job portal using Laravel and Vue. Includes job filtering, employer & candidate workflows, and dynamic listings."
       frontRepo="https://github.com/Esraa-mohamed1/job-board-laravel-vue"
       backRepo="https://github.com/omarokstar/job-board-laravel-api"
+      demoLink="https://drive.google.com/file/d/1qIukp_QrRVxhqArbO8SzL9RMg20WrP3T/view?usp=sharing" 
     />
   </Col>
 
@@ -49,6 +49,8 @@ const Projects = () => {
       description="A Django and React-based system to manage appointments, doctor profiles, and departments with secure user roles."
       frontRepo="https://github.com/omarokstar/medical-portal-react"
       backRepo="https://github.com/omarokstar/medical-portal-django"
+      demoLink="https://drive.google.com/file/d/1Fxw4afFRcChXErya5rcaF-Un6J0hI-U5/view?usp=sharing"
+
     />
   </Col>
 
