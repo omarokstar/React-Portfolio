@@ -67,7 +67,7 @@ const Projects = () => {
 </Row>
 
       </Container>
-    </Container>
+    </Container>  
   );
 };
 
