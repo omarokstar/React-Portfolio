@@ -31,7 +31,8 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col md={3} style={{ paddingBottom: 20 }}>
+            <Col xs={12} md={5} className="d-flex justify-content-center">
+
               
        <div class="slider-item portfolio-picture">
         <img src={pic3} alt='' className="portfolio-square" />
