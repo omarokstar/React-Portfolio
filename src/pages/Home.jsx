@@ -13,7 +13,8 @@ const Home = () => {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col md={7} className="home-header">
+            <Col xs={12} md={7} className="home-header mb-4 mb-md-0">
+
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
@@ -31,8 +32,7 @@ const Home = () => {
               </div>
             </Col>
 
-              <Col xs={12} md={5} className="d-flex justify-content-center pt-4 pt-md-0">
-
+            <Col xs={12} md={5} className="d-flex justify-content-center">
 
               
        <div class="slider-item portfolio-picture">
