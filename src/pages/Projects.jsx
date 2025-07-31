@@ -61,7 +61,7 @@ const Projects = () => {
       description="Search for nearby pharmacies and available medicines. Features geolocation, nurse request, and real-time availability."
       frontRepo="https://github.com/omarokstar/drug-finder"
       backRepo="https://github.com/omarokstar/drug-finder-backend"
-      demoLink="https://omarokstar-drugfinder.netlify.app/"
+      demoLink="https://drug-finderr.netlify.app/"
     />
   </Col>
 </Row>
