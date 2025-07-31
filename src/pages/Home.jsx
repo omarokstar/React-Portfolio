@@ -13,7 +13,7 @@ const Home = () => {
         <Particle />
         <Container className="home-content">
           <Row>
-            <Col xs={12} md={7} className="home-header mb-4 mb-md-0">
+            <Col xs={12} md={7} className="home-header text-center text-md-start mb-4 mb-md-0 px-4">
 
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}
