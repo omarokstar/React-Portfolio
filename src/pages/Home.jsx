@@ -31,7 +31,8 @@ const Home = () => {
               </div>
             </Col>
 
-            <Col xs={12} md={5} className="d-flex justify-content-center">
+              <Col xs={12} md={5} className="d-flex justify-content-center pt-4 pt-md-0">
+
 
               
        <div class="slider-item portfolio-picture">
